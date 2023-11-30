@@ -4,7 +4,7 @@ import "font-awesome/css/font-awesome.min.css";
 import React from "react";
 import Logo from "../components/template/logo";
 import Nav from "../components/template/nav";
-import Main from "../components/template/main";
+import Home from "../components/home/home";
 import Footer from "../components/template/footer";
 
 const App = props => {
@@ -12,7 +12,7 @@ const App = props => {
     <div className="app">
         <Logo/>
         <Nav/>
-        <Main icon="home" title="Início" subtitle="Segundo projeto do capitulo de react"/>
+        <Home />
         <Footer/>
     </div>
     )
